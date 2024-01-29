@@ -11,7 +11,6 @@ function App() {
       <button onClick={() => setCount(count + 1)}>counter</button>
       <p>{count}</p>
       <p>{jonim}</p>
-      <p>pidr</p>
     </>
   )
 }
