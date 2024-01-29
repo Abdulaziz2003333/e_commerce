@@ -9,7 +9,7 @@ const ContextProvider = ({ children }) => {
 
 const [sdm,setSdm]=useState('Jonimkam')
     return (
-        <MyContext.Provider value={{ count, setCount,sdm }}>
+        <MyContext.Provider value={{ count,setCount,sdm }}>
             {children}
         </MyContext.Provider>
     );
