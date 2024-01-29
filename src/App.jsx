@@ -9,7 +9,7 @@ function App() {
     <>
     <h1>Salom </h1>
       <button onClick={() => setCount(count + 1)}>counter</button>
-      <p>{count}</p>
+     
     </>
   )
 }
