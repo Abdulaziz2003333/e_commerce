@@ -7,9 +7,8 @@ const ContextProvider = ({ children }) => {
     const [count, setCount] = useState(0);
     //sherzod
 
-const [sdm,setSdm]=useState('Jonimkam')
     return (
-        <MyContext.Provider value={{ count,setCount,sdm }}>
+        <MyContext.Provider value={{ count,setCount }}>
             {children}
         </MyContext.Provider>
     );
