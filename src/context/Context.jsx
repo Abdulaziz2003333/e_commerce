@@ -4,9 +4,9 @@ import { createContext, useState } from 'react';
 export const MyContext = createContext();
 const ContextProvider = ({ children }) => {
     const [count, setCount] = useState(0);
-const [abs,setJonim]=useState('Jonimkam')
+const [jonim,setJonim]=useState('Jonimkam')
     return (
-        <MyContext.Provider value={{ count, setCount,abs }}>
+        <MyContext.Provider value={{ count, setCount,jonim }}>
             {children}
         </MyContext.Provider>
     );
