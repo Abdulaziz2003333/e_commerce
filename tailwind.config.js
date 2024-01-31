@@ -7,13 +7,12 @@ export default {
   theme: {
     extend: {
       screens: {
-        '2xl': '1536px',
-        'xl': '1280px',
-        'lg': '1024px',
-        'md': '768px',
-        'sm': '640px',
-        'xs': '480px',
-        'xss': '320px',
+        'xs': {"max": "480px"},
+        'sm': {"max": "640px"},
+        'md': {"max": "768px"},
+        'lg': {"max": "1024px"},
+        'xl': {"max": "1280px"},
+        '2xl': {"max": "1536px"},
       },
     },
   },
