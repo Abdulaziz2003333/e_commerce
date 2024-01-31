@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <h1>Salom </h1>
+    <h1 className={'text-red-950'}>Salom </h1>
       <button onClick={() => setCount(count + 1)}>counter</button>
       <p>{count}</p>
     </>
