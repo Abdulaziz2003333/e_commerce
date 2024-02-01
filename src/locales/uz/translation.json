@@ -1,3 +1,7 @@
 {
-  "hello": "salom dunyo!"
+  "hello": "salom dunyo!",
+  "topNav":{
+    "center": "Barcha suzish kostyumlari uchun bepul tezkor yetkazib berish - 50% chegirma!",
+    "shop": "sotib olish"
+  }
 }
