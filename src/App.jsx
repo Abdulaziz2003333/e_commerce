@@ -4,12 +4,12 @@ import BottomNav from "./components/BottomNav.jsx";
 
 function App() {
 
-  return (
-      <>
-       <Nav/>
-          <BottomNav/>
-      </>
-  )
+    return (
+        <>
+            <Nav/>
+            <BottomNav/>
+        </>
+    )
 }
 
 export default App
