@@ -1,16 +1,19 @@
 import {useContext} from "react";
 import {MyContext} from "./context/Context.jsx";
+import {useTranslation} from "react-i18next";
 
 
 function App() {
-  const {count,setCount} = useContext(MyContext)
+  const {changeLanguageFunc} = useContext(MyContext)
 
+  const {t} = useTranslation()
   return (
-    <>
-    <h1 className={'text-red-950'}>Salom </h1>
-      <button onClick={() => setCount(count + 1)}>counter</button>
-      <p>{count}</p>
-    </>
+      <div>
+        <div>{t('hello')}</div>
+
+        <button onClick={() => changeLanguageFunc('en')}>eng</button>
+        <button onClick={() => changeLanguageFunc('fr')}>uz</button>
+      </div>
   )
 }
 
