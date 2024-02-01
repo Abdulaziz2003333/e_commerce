@@ -10,9 +10,9 @@ function App() {
   return (
       <div>
         <div>{t('hello')}</div>
-
-        <button onClick={() => changeLanguageFunc('en')}>eng</button>
-        <button onClick={() => changeLanguageFunc('uz')}>uz</button>
+          <button onClick={() => changeLanguageFunc('en')}>eng</button>
+          <button onClick={() => changeLanguageFunc('uz')}>uz</button>
+          <button onClick={() => changeLanguageFunc('ru')}>ru</button>
       </div>
   )
 }
