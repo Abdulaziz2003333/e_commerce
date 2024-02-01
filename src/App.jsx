@@ -12,7 +12,7 @@ function App() {
         <div>{t('hello')}</div>
 
         <button onClick={() => changeLanguageFunc('en')}>eng</button>
-        <button onClick={() => changeLanguageFunc('fr')}>uz</button>
+        <button onClick={() => changeLanguageFunc('uz')}>uz</button>
       </div>
   )
 }

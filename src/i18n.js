@@ -6,9 +6,9 @@ i18n
     .use(Backend)
     .use(initReactI18next)
     .init({
-        lng: 'uz',
+        lng: 'en',
         debug: true,
-        fallbackLng: 'uz',
+        fallbackLng: 'en',
         interpolation: {
             escapeValue: false,
         },
