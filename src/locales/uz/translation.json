@@ -3,5 +3,12 @@
   "topNav":{
     "center": "Barcha suzish kostyumlari uchun bepul tezkor yetkazib berish - 50% chegirma!",
     "shop": "sotib olish"
+  },
+  "bottomNav":{
+    "home":"uy",
+    "contact":"Aloqa",
+    "about":"haqimizda",
+    "signUp":"Ro'yhatdan o'tish",
+    "input":"Siz nimani izlayapsiz?"
   }
 }
