@@ -53,4 +53,24 @@
 .inter-light{
     font-family: 'inter-light', sans-serif;
 }
+.nav-item{
+    position: relative;
+}
+
+.nav-item::after {
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: lightslategray;
+    transition: width .3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
 

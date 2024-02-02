@@ -10,5 +10,16 @@
     "about":"haqimizda",
     "signUp":"Ro'yhatdan o'tish",
     "input":"Siz nimani izlayapsiz?"
+  },
+  "hero": {
+    "Woman’s Fashion": "ayol modasi",
+    "Man’s Fashion": "Erkak modasi",
+    "Electronics": "Elektronika",
+    "Home & lifestyle": "uy va turmush tarzi",
+    "Medicine": "Медицина",
+    "Sport & outdoors": "Спорт и активный отдых",
+    "Baby & toys": "Мамочки и игрушки",
+    "Groceries & pets": "Бытовая хозяйка и животные",
+    "Health & beauty": "Здоровье и красота"
   }
 }

@@ -10,5 +10,16 @@
     "about":"About",
     "signUp":"Sign Up",
     "input":"What are you looking for?"
+  },
+  "hero": {
+    "Woman’s Fashion": "Woman’s Fashion",
+    "Man’s Fashion": "Man’s Fashion",
+    "Electronics": "Electronics",
+    "Home & lifestyle": "Home & lifestyle",
+    "Medicine": "Medicine",
+    "Sport & outdoors": "Sport & outdoors",
+    "Baby & toys": "Baby & toys",
+    "Groceries & pets": "Groceries & pets",
+    "Health & beauty": "Health & beauty"
   }
 }

@@ -12,10 +12,10 @@ const BottomNav = () => {
                 </div>
                 <div>
                     <ul className="flex gap-14 inter-regular">
-                        <li><Link to={'/'}>{t('bottomNav.home')}</Link></li>
-                        <li><Link to={'/'}>{t('bottomNav.contact')}</Link></li>
-                        <li><Link to={'/'}>{t('bottomNav.about')}</Link></li>
-                        <li><Link to={'/'}>{t('bottomNav.signUp')}</Link></li>
+                        <li className="nav-item"><Link to={'/'}>{t('bottomNav.home')}</Link></li>
+                        <li className="nav-item"><Link to={'/'}>{t('bottomNav.contact')}</Link></li>
+                        <li className="nav-item"><Link to={'/'}>{t('bottomNav.about')}</Link></li>
+                        <li className="nav-item"><Link to={'/'}>{t('bottomNav.signUp')}</Link></li>
                     </ul>
                 </div>
                 <div className="bg-[#F5F5F5] w-[243px] flex justify-around items-center px-3 py-[7px] rounded">

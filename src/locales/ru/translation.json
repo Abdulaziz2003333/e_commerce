@@ -10,5 +10,16 @@
     "about":"О нас",
     "signUp":"Регистрация",
     "input":"Что вы ищете?"
-  }
+  },
+  "hero": {
+  "Woman’s Fashion": "Женская мода",
+  "Man’s Fashion": "Мужская мода",
+  "Electronics": "Электроника",
+  "Home & lifestyle": "Дом и интересное",
+  "Medicine": "Медицина",
+  "Sport & outdoors": "Спорт и активный отдых",
+  "Baby & toys": "Мамочки и игрушки",
+  "Groceries & pets": "Бытовая хозяйка и животные",
+  "Health & beauty": "Здоровье и красота"
+}
 }

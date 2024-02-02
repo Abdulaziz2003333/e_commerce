@@ -12,7 +12,7 @@ const Nav = () => {
 
     return (
         <>
-           <div className="bg-[#000000] py-[14px]">
+           <div className="bg-[#000000] py-[14px] inter-regular">
                <div className="container flex items-center justify-between">
                    <div className="text-white flex gap-5">
                        <h3>{t("topNav.center")}</h3>
