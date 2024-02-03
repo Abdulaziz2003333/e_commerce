@@ -2,6 +2,7 @@ import i18n from "../i18n.js";
 import {useContext} from "react";
 import {MyContext} from "../context/Context.jsx";
 import {useTranslation} from "react-i18next";
+import BottomNav from "./BottomNav.jsx";
 
 
 const Nav = () => {
@@ -29,6 +30,7 @@ const Nav = () => {
                    </select>
                </div>
            </div>
+            <BottomNav/>
         </>
     );
 };

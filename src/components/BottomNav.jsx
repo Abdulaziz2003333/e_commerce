@@ -2,6 +2,7 @@
 import {Link} from 'react-router-dom'
 import {useTranslation} from "react-i18next";
 import { CiSearch } from "react-icons/ci";
+import jonim from "../assets/уу.jpg"
 const BottomNav = () => {
     const {t}=useTranslation()
     return (
@@ -24,6 +25,7 @@ const BottomNav = () => {
                 </div>
             </div>
             <hr className="mt-[16px]"/>
+
         </div>
 
     );
