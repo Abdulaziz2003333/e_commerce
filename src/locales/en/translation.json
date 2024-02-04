@@ -21,5 +21,28 @@
     "Baby & toys": "Baby & toys",
     "Groceries & pets": "Groceries & pets",
     "Health & beauty": "Health & beauty"
+  },
+  "register": {
+    "Create an account": "Create an account",
+    "Enter your details below": "Enter your details below",
+    "Name": "Name",
+    "Email": "Email",
+    "Password": "Password",
+    "createAccount": "Create Account",
+    "google": "Sign up with Google",
+    "Already have account?": "Already have account?",
+    "Log in": "Log in"
+  },
+  "login": {
+    "have": "Don't have an account?",
+    "Log in to Exclusive": "Log in to Exclusive",
+    "signUp": "Sign Up"
+  },
+  "error": {
+    "404": "404 Not Found",
+    "visited":"Your visited page not found. You may go home page.",
+    "back":"Back to home page",
+    "error": "error",
+    "route": "route"
   }
 }

@@ -45,15 +45,15 @@ const BottomNav = () => {
     return (
         <div className=" pt-[38px] bg-white" ref={navbarRef}>
             <div className="flex  items-center justify-between container ">
-                <div><span
+                <Link to="/"><span
                     className="text-[color:var(--Text2,#000)] inter-bold text-2xl font-bold leading-6 tracking-[0.72px]">Exclusive</span>
-                </div>
+                </Link>
                 <div>
                     <ul className="flex gap-14 inter-regular">
                         <li className="nav-item"><Link to={'/'}>{t('bottomNav.home')}</Link></li>
                         <li className="nav-item"><Link to={'/'}>{t('bottomNav.contact')}</Link></li>
                         <li className="nav-item"><Link to={'/'}>{t('bottomNav.about')}</Link></li>
-                        <li className="nav-item"><Link to={'/'}>{t('bottomNav.signUp')}</Link></li>
+                        <li className="nav-item"><Link to={'/login'}>{t('bottomNav.signUp')}</Link></li>
                     </ul>
                 </div>
                 <div className="bg-[#F5F5F5] w-[243px] flex justify-around items-center px-3 py-[7px] rounded">

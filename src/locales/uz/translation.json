@@ -21,5 +21,28 @@
     "Baby & toys": "Onalar va o'yinchoqlar",
     "Groceries & pets": "Uy bekasi va hayvonlar",
     "Health & beauty": "Salomatlik va go'zallik"
+  },
+  "register": {
+    "Create an account": "Akkaunt yaratish",
+    "Enter your details below": "Ko’rsatilgan ma’lumotlarni kiriting",
+    "Name": "Ism",
+    "Email": "Elektron pochta",
+    "Password": "Parol",
+    "createAccount": "Akkaunt yaratish",
+    "google": "ro‘yxatdan o‘tish",
+    "Already have account?": "Akkauntingiz mavjudmi?",
+    "Log in": "Kirish"
+  },
+  "login": {
+    "have": "Akkauntingiz mavjud emasmi?",
+    "Log in to Exclusive": "Exclusive-ga kirish",
+    "signUp": "Ro'yhatdan o'tish"
+  },
+  "error": {
+    "404": "404 sahifa topilmadi",
+    "visited":"Siz ko’rsatgan sahifa topilmadi.bosh sahifaga qaytishingiz kerak.",
+    "back":"Bosh sahifa qaytish",
+    "error": "xatolik",
+    "route": "yo'nalish"
   }
 }

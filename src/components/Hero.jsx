@@ -77,8 +77,6 @@ const Hero = () => {
 
     return (
         <div>
-
-            <Nav/>
             <div className="pt-32">
                 <div className="container justify-between flex">
                     <SideNav/>
