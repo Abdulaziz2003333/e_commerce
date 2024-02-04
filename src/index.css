@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 .container{
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     max-width: 100%;
 }
-
+body{
+    height: 300vh;
+}
 @font-face {
     font-family: 'inter-black';
     src: url('./fonts/Inter-Black.ttf')
@@ -66,7 +68,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: lightslategray;
+    background: #DB4444;
     transition: width .3s;
 }
 
@@ -74,3 +76,9 @@
     width: 100%;
 }
 
+.alice-carousel__dots{
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}

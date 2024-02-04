@@ -1,12 +1,45 @@
-
 import {Link} from 'react-router-dom'
 import {useTranslation} from "react-i18next";
 import { CiSearch } from "react-icons/ci";
-import jonim from "../assets/уу.jpg"
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+import {useEffect, useRef} from "react";
+
 const BottomNav = () => {
     const {t}=useTranslation()
+
+    const navbarRef = useRef(null);
+
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.fromTo(navbarRef.current, {
+            marginTop: "0px",
+                transition:0.6,
+                ease:"power2.inOut",
+        },
+            {
+                marginTop: "-70px",
+                transition:0.6,
+                ease:"power2.inOut",
+                scrollTrigger: {
+                    trigger: navbarRef.current,
+                    start: 100,
+                    end: "top top",
+                    scrub: true,
+                }
+            });
+
+
+        ScrollTrigger.refresh();
+
+        return () => {
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+        };
+    }, []);
+
     return (
-        <div className=" mt-[38px]">
+        <div className=" pt-[38px] bg-white" ref={navbarRef}>
             <div className="flex  items-center justify-between container ">
                 <div><span
                     className="text-[color:var(--Text2,#000)] inter-bold text-2xl font-bold leading-6 tracking-[0.72px]">Exclusive</span>

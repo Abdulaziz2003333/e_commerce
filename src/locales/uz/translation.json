@@ -12,14 +12,14 @@
     "input":"Siz nimani izlayapsiz?"
   },
   "hero": {
-    "Woman’s Fashion": "ayol modasi",
-    "Man’s Fashion": "Erkak modasi",
+    "Woman’s Fashion": "ayollar modasi",
+    "Man’s Fashion": "Erkaklar modasi",
     "Electronics": "Elektronika",
     "Home & lifestyle": "uy va turmush tarzi",
-    "Medicine": "Медицина",
-    "Sport & outdoors": "Спорт и активный отдых",
-    "Baby & toys": "Мамочки и игрушки",
-    "Groceries & pets": "Бытовая хозяйка и животные",
-    "Health & beauty": "Здоровье и красота"
+    "Medicine": "Dori darmon",
+    "Sport & outdoors": "Sport va faol dam olish",
+    "Baby & toys": "Onalar va o'yinchoqlar",
+    "Groceries & pets": "Uy bekasi va hayvonlar",
+    "Health & beauty": "Salomatlik va go'zallik"
   }
 }
