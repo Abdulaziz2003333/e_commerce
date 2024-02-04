@@ -14,14 +14,18 @@ const BottomNav = () => {
         gsap.registerPlugin(ScrollTrigger);
 
         gsap.fromTo(navbarRef.current, {
-            marginTop: "0px",
+            top: "50px",
+            position: "fixed",
+            width: "100%",
                 transition:0.6,
                 ease:"power2.inOut",
         },
             {
-                marginTop: "-70px",
+                position: "fixed",
+                width: "100%",
+                top: "-20px",
                 transition:0.6,
-                ease:"power2.inOut",
+                ease:"power2.in",
                 scrollTrigger: {
                     trigger: navbarRef.current,
                     start: 100,
