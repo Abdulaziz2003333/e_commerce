@@ -1,1 +1,3 @@
-const baseUrl=
+const baseUrl=`dcdscdscds`
+
+export default baseUrl
