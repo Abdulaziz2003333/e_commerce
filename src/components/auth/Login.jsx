@@ -8,7 +8,7 @@ const Login = () => {
     const {t} = useTranslation()
 
     return (
-        <div className="pt-60">
+        <div className="pt-60 pb-[140px]"  >
             <div className="flex items-center justify-between container w-full">
                 <div><img src={heroImg} className="h-[600px]"/></div>
                 <div className="flex flex-col w-[371px]">

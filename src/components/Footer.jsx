@@ -5,17 +5,17 @@ import {FaFacebook,FaInstagram } from "react-icons/fa6";
 import { BsLinkedin,BsTwitterX } from "react-icons/bs";
 const Footer = () => {
     return (
-        <div className="w-full bg-black h-[440px] flex items-center justify-center absolute">
+        <div className="w-full bg-black h-[440px] flex items-center justify-center ">
             <div className="flex justify-center items-center  gap-[87px] container ">
                 <div className="mb-10">
                     <h1 className="text-white text-xl font-medium mb-6
         ">Exclusive</h1>
-                    <ul className="text-white">
-                        <li>Subscribe</li>
-                        <li>Get 10% off your first order</li>
-                        <li>
+                    <ul className ="text-white">
+                        <li className='mb-[16px]' > Subscribe</li>
+                        <li className='mb-[16px]'  >Get 10% off your first order </li>
+                        <li className='mt-3 ' >
                             <form>
-                                <input type="text" placeholder="Enter your email"/>
+                                <input type="text" placeholder="Enter your email" className='border-solid border-white'/>
                             </form>
 
 
