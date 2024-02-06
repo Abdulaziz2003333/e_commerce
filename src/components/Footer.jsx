@@ -5,7 +5,7 @@ import {FaFacebook,FaInstagram } from "react-icons/fa6";
 import { BsLinkedin,BsTwitterX } from "react-icons/bs";
 const Footer = () => {
     return (
-        <div className="w-full bg-black h-[440px] flex items-center justify-center">
+        <div className="w-full bg-black h-[440px] flex items-center justify-center absolute">
             <div className="flex justify-center items-center  gap-[87px] container ">
                 <div className="mb-10">
                     <h1 className="text-white text-xl font-medium mb-6
@@ -54,7 +54,7 @@ const Footer = () => {
                 <div className="mt-7">
                     <h2 className="text-white mb-5 text-xl font-medium">Download App</h2>
                     <p className="text-[color:var(--Text,#FAFAFA)] [font-family:Poppins] text-xs font-medium leading-[18px] opacity-70 mb-7">Save
-                        $3 with App New User Only</p>
+                        $3 with App New User Only </p>
                     <div className="flex">
                         <img src={qrCode} alt="Qrcode"/>
                         <ul className="ml-2">
