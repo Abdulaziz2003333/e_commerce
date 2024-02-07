@@ -6,9 +6,9 @@ import { BsLinkedin,BsTwitterX } from "react-icons/bs";
 const Footer = () => {
     return (
         <div className="w-full bg-black h-[440px] flex items-center justify-center ">
-            <div className="flex justify-center items-center  gap-[87px] container ">
+            <div className="flex justify-center items-start inter-medium  gap-[87px] container ">
                 <div className="mb-10">
-                    <h1 className="text-white text-xl font-medium mb-6
+                    <h1 className="text-white text-xl font-bold mb-6
         ">Exclusive</h1>
                     <ul className ="text-white">
                         <li className='mb-[16px]' > Subscribe</li>
@@ -51,13 +51,13 @@ const Footer = () => {
                         <li>Contact</li>
                     </ul>
                 </div>
-                <div className="mt-7">
+                <div>
                     <h2 className="text-white mb-5 text-xl font-medium">Download App</h2>
                     <p className="text-[color:var(--Text,#FAFAFA)] [font-family:Poppins] text-xs font-medium leading-[18px] opacity-70 mb-7">Save
                         $3 with App New User Only </p>
                     <div className="flex">
                         <img src={qrCode} alt="Qrcode"/>
-                        <ul className="ml-2">
+                        <ul className="ml-2 flex flex-col gap-3">
                             <li><img src={appstore}/></li>
                             <li><img src={goglePlay}/></li>
                         </ul>

@@ -1,14 +1,41 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import heroImg from '../../assets/dl.beatsnoop 1.png'
 import { FcGoogle } from "react-icons/fc";
 import {Link} from "react-router-dom";
 import {useTranslation} from "react-i18next";
+import {gsap} from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 const Login = () => {
-
+    const animationRef = useRef(null);
     const {t} = useTranslation()
 
+
+    useEffect(() => {
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.fromTo(animationRef.current, {
+                x: -200,
+                opacity: 0,
+                duration: 0.5,
+                stagger: 0.2,
+            },
+            {
+                x: 0,
+                opacity: 1,
+                duration: 0.5,
+                stagger: 0.2,
+            }
+        )
+
+        ScrollTrigger.refresh();
+
+
+    },[])
+
+
     return (
-        <div className="pt-60 pb-[140px]"  >
+        <div ref={animationRef} className="pt-60 pb-[140px]"  >
             <div className="flex items-center justify-between container w-full">
                 <div><img src={heroImg} className="h-[600px]"/></div>
                 <div className="flex flex-col w-[371px]">

@@ -1,14 +1,27 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import heroImg from '../../assets/dl.beatsnoop 1.png'
 import { FcGoogle } from "react-icons/fc";
 import {Link} from "react-router-dom";
+import {gsap} from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import {useTranslation} from "react-i18next";
+import animateRegister from "../../animations/app.animation.js";
 const Register = () => {
 
     const {t} = useTranslation()
+    const registerRef = useRef(null);
+
+    useEffect(() => {
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        animateRegister(registerRef)
+
+
+    },[])
 
     return (
-        <div className="pt-60">
+        <div className="pt-60 pb-32" ref={registerRef}>
             <div className="flex items-center justify-between container w-full">
                 <div><img src={heroImg} className="h-[600px]"/></div>
                 <div className="flex flex-col w-[371px]">
