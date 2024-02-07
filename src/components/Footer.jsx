@@ -25,8 +25,8 @@ const Footer = () => {
                 <div className="mb-6">
                     <h2 className="text-white mb-6 text-xl font-medium">Support</h2>
                     <ul className="text-white">
-                        <li>111 Bijoy sarani, Dhaka, <br/> DH 1515, Bangladesh.</li>
-                        <li>exclusive@gmail.com</li>
+                        <li className='mb-[16px]'>111 Bijoy sarani, Dhaka, <br/> DH 1515, Bangladesh.</li>
+                        <li className='mb-[16px]'>exclusive@gmail.com</li>
                         <li>+88015-88888-9999</li>
 
 
@@ -35,20 +35,20 @@ const Footer = () => {
                 <div>
                     <h2 className="text-white mb-6 text-xl font-medium">Account</h2>
                     <ul className="text-white">
-                        <li>My Account</li>
-                        <li>Login Register</li>
-                        <li>Cart</li>
-                        <li>Wishlist</li>
+                        <li className='mb-[16px]'>My Account</li>
+                        <li className='mb-[16px]'>Login Register</li>
+                        <li className='mb-[16px]'>Cart</li>
+                        <li className='mb-[16px]'>Wishlist</li>
                         <li>Shop</li>
                     </ul>
                 </div>
                 <div className="mb-9">
                     <h2 className="text-white mb-5 text-xl font-medium">Quick Link</h2>
                     <ul className="text-white">
-                        <li>Privacy Policy</li>
-                        <li>Terms Of Use</li>
-                        <li>FAQ</li>
-                        <li>Contact</li>
+                        <li className='mb-[16px]'>Privacy Policy</li>
+                        <li className='mb-[16px]'>Terms Of Use</li>
+                        <li className='mb-[16px]'>FAQ</li>
+                        <li className='mb-[16px]'>Contact</li>
                     </ul>
                 </div>
                 <div>
@@ -63,7 +63,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="flex mt-3 justify-center gap-[24px]">
-                        <FaFacebook className="text-white w-6 h-6"/>
+                        <FaFacebook className="text-white w-6 h-6 "/>
                         <BsTwitterX  className="text-white w-6 h-6" />
                         <FaInstagram className="text-white w-6 h-6" />
                         <BsLinkedin className="text-white w-6 h-6" />
