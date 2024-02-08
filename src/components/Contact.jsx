@@ -5,14 +5,14 @@ import email from '../assets/icons-mail.svg'
 
 const Contact = () => {
     return (
-        < >
+        <div className="container" >
 
 
-            <div className="mt-60 flex mb-60  ">
-                <div className="container flex flex-col ">
+            <div className="mt-60 flex mb-60 justify-between ">
+                <div className=" flex flex-col mr-2 ">
                     {/*    Call to us*/}
 
-                    <div className="w-[262px] ml-32 ">
+                    <div className="w-[262px]  ">
 
                         <div className="flex items-center    ">
                             <img src={phone}/>
@@ -25,7 +25,7 @@ const Contact = () => {
                         </div>
                         <hr className="mt-6 mb-6 w-[262px]  border border-[#E5E5E5] "/>
                     </div>
-                    <div className="w-[262px] ml-32">
+                    <div className="w-[262px] ">
                         <div className="flex items-center">
                             <img src={email}/>
                             <h1 className="ml-3 text-black  text-2xl font-medium leading-6">Call To Us</h1>
@@ -40,10 +40,10 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <div className=" container ">
+                <div>
                     {/*    block for input*/}
 
-                    <div className="mr-28">
+                    <div >
                         <div>
                             <form>
                                 <ul className="flex">
@@ -55,7 +55,7 @@ const Contact = () => {
                                                                                            className="bg-[#F5F5F5] rounded h-full  w-full pl-3"
                                                                                            placeholder="Your Email"/>
                                     </li>
-                                    <li className="w-[232px] h-[50px] rounded mr-6"><input type="tel"
+                                    <li className="w-[232px] h-[50px] rounded "><input type="tel"
                                                                                            className="bg-[#F5F5F5] rounded h-full  w-full pl-3"
                                                                                            placeholder="Your Phone"/>
                                     </li>
@@ -69,7 +69,7 @@ const Contact = () => {
 
                             </textarea>
                             <div className="flex justify-end">
-                                <button className=" mr-5 mt-5 rounded bg-[#DB4444] px-12 py-4 text-white">Send Message
+                                <button className="  mt-5 rounded bg-[#DB4444] px-12 py-4 text-white">Send Message
                                 </button>
                             </div>
 
@@ -81,7 +81,7 @@ const Contact = () => {
             </div>
 
 
-        </>);
+        </div>);
 
 };
 
