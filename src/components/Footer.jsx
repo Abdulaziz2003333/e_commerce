@@ -5,7 +5,7 @@ import {FaFacebook,FaInstagram } from "react-icons/fa6";
 import { BsLinkedin,BsTwitterX } from "react-icons/bs";
 const Footer = () => {
     return (
-        <div className="w-full bg-black h-[440px] flex items-center justify-center ">
+        <div className="w-full bg-black h-[350px] flex items-center justify-center ">
             <div className="flex justify-center items-start inter-medium  gap-[87px] container ">
                 <div className="mb-10">
                     <h1 className="text-white text-xl font-bold mb-6
