@@ -8,7 +8,9 @@
     padding: 0 15px;
     max-width: 100%;
 }
-
+#Ellipse{
+    fill: red !important;
+}
 html{
     scroll-behavior: smooth;
 }
