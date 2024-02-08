@@ -7,6 +7,7 @@ import Error from "../components/Error.jsx";
 import Footer from "../components/Footer.jsx";
 import Contact from "../components/Contact.jsx";
 import ScrollToTop from "../utils/ScrollToTop.jsx";
+import About from "../components/About.jsx";
 
 const BrowserProvider = () => {
     return (
@@ -18,6 +19,7 @@ const BrowserProvider = () => {
                 <Route path="/register" element={<Register/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/contact" element={<Contact/>}/>
+                <Route path="/about" element={<About/>}/>
                 <Route path="*" element={<Error/>}/>
             </Routes>
             <Footer/>
