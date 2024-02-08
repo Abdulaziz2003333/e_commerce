@@ -6,20 +6,19 @@ import Login from "../components/auth/Login.jsx";
 import Error from "../components/Error.jsx";
 import Footer from "../components/Footer.jsx";
 import Contact from "../components/Contact.jsx";
-import About from "../components/About.jsx";
+import ScrollToTop from "../utils/ScrollToTop.jsx";
 
 const BrowserProvider = () => {
     return (
         <BrowserRouter>
             <Nav/>
+            <ScrollToTop/>
             <Routes>
                 <Route path="/" element={<App />}/>
                 <Route path="/register" element={<Register/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/contact" element={<Contact/>}/>
-                <Route path="/about" element={<About/>}/>
                 <Route path="*" element={<Error/>}/>
-
             </Routes>
             <Footer/>
         </BrowserRouter>

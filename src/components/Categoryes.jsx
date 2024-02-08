@@ -20,7 +20,7 @@ const Categories = () => {
         gsap.registerPlugin(ScrollTrigger);
 
         gsap.fromTo(triggerRef.current, {
-            x:200,
+            x:300,
             opacity:0,
             ease:"bounce.inOut",
             duration:2,
@@ -31,7 +31,7 @@ const Categories = () => {
                 duration:2,
                 scrollTrigger:{
                     trigger:triggerRef.current,
-                    start:'600',
+                    start:'200',
                     end:'bottom center',
                     scrub:1,
 
@@ -39,7 +39,7 @@ const Categories = () => {
             })
 
         gsap.fromTo(animationRef.current, {
-                x:-200,
+                x:-300,
                 opacity:0,
                 duration:2,
             },
@@ -49,7 +49,7 @@ const Categories = () => {
                 duration:2,
                 scrollTrigger:{
                     trigger:animationRef.current,
-                    start:'600',
+                    start:'200',
                     end:'bottom center',
                     scrub:1,
 
