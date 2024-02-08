@@ -51,8 +51,8 @@ const BottomNav = () => {
                 <div>
                     <ul className="flex gap-14 inter-regular">
                         <li className="nav-item"><Link to={'/'}>{t('bottomNav.home')}</Link></li>
-                        <li className="nav-item"><Link to={'/'}>{t('bottomNav.contact')}</Link></li>
-                        <li className="nav-item"><Link to={'/'}>{t('bottomNav.about')}</Link></li>
+                        <li className="nav-item"><Link to={'/contact'}>{t('bottomNav.contact')}</Link></li>
+                        <li className="nav-item"><Link to={'/about'}>{t('bottomNav.about')}</Link></li>
                         <li className="nav-item"><Link to={'/login'}>{t('bottomNav.signUp')}</Link></li>
                     </ul>
                 </div>
