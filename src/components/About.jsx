@@ -1,6 +1,12 @@
 import React from 'react';
 import girls
     from '../assets/portrait-two-african-females-holding-shopping-bags-while-reacting-something-their-smartphone 1.png'
+import tom from "../assets/image 46.svg"
+import will from "../assets/image 47.svg"
+import emma from "../assets/image 51.svg"
+
+
+
 
 
 const About = () => {
@@ -32,7 +38,7 @@ const About = () => {
                 <div className="flex justify-center">
                     <div
                         className=" rounded border pl-[50px] pr-[51px] py-[30px] border-solid border-gray-400 flex-col justify-center items-center">
-                       <img src={stock} className="jonim"/> </div>
+                    </div>
                     <div
                         className=" rounded border pl-[50px] pr-[51px] py-[30px] border-solid border-[rgba(0,0,0,0.30)]">2
                     </div>
@@ -42,6 +48,48 @@ const About = () => {
                     <div
                         className=" rounded border pl-[50px] pr-[51px] py-[30px] border-solid border-[rgba(0,0,0,0.30)]">4
                     </div>
+                </div>
+
+                <div className="flex justify-center pt-10 gap-14">
+                    <div>
+                        <div
+                            className="w-[370px] h-[430px] bg-[#F5F5F5] flex justify-center items-end pt-[39px] pb-0 px-[67px]  ">
+                            <img
+                                src={tom}/>
+
+
+                        </div>
+                        <div className="mt-5">
+                            <p className="inter-medium text-black text-[32px] font-medium leading-[30px] tracking-[1.28px]">Soap
+                                MCtavish</p>
+                            <p className="popins-extraLight mt-2">Founder&Chairman</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className="w-[370px] h-[430px] bg-[#F5F5F5] flex justify-center items-end  pt-[33px] pb-0 px-[38px] ">
+                            <img
+                                src={emma}/></div>
+                        <div className="mt-5">
+                            <p className="inter-medium text-black text-[32px] font-medium leading-[30px] tracking-[1.28px]"> Kate
+                                Laswell </p>
+                            <p className="popins-extraLight mt-2">Managing Director</p>
+
+                        </div>
+                    </div>
+                    <div>
+
+                    <div
+                            className="w-[370px] h-[430px] bg-[#F5F5F5] flex justify-center items-end pt-[38px] pb-0 px-[22px] ">
+                            <img
+                                src={will}/></div>
+                        <div className="mt-5">
+                            <p className="inter-medium text-black text-[32px] font-medium leading-[30px] tracking-[1.28px]">Jonathan
+                                Price </p>
+                            <p className="popins-extraLight mt-2">Product Designer</p>
+                        </div>
+                    </div>
+
                 </div>
 
 

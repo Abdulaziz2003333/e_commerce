@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -41,6 +43,10 @@ html{
     font-family: 'inter-light';
     src: url('./fonts/Inter-Light.ttf')
 }
+@font-face {
+    font-family: 'extra-light';
+    src: url('fonts/Poppins-ExtraLightItalic.ttf')
+}
 
 .inter-black{
     font-family: 'inter-black', sans-serif;
@@ -60,6 +66,9 @@ html{
 
 .inter-light{
     font-family: 'inter-light', sans-serif;
+}
+.popins-extraLight{
+    font-family: 'extra-light', sans-serif;
 }
 .nav-item{
     position: relative;
