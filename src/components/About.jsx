@@ -4,7 +4,10 @@ import girls
 import tom from "../assets/image 46.svg"
 import will from "../assets/image 47.svg"
 import emma from "../assets/image 51.svg"
-
+import { CiTwitter } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa6";
+import { PiLinkedinLogoLight } from "react-icons/pi";
+import ThreeBilboards from "./ThreeBilboards.jsx";
 
 
 
@@ -63,6 +66,11 @@ const About = () => {
                             <p className="inter-medium text-black text-[32px] font-medium leading-[30px] tracking-[1.28px]">Soap
                                 MCtavish</p>
                             <p className="popins-extraLight mt-2">Founder&Chairman</p>
+                            <ul className="flex gap-6 mt-2">
+                                <li><CiTwitter className=" w-6 h-6"/></li>
+                                <li><FaInstagram className=" w-6 h-6"/></li>
+                                <li><PiLinkedinLogoLight className=" w-6 h-6"/></li>
+                            </ul>
                         </div>
                     </div>
                     <div>
@@ -74,12 +82,17 @@ const About = () => {
                             <p className="inter-medium text-black text-[32px] font-medium leading-[30px] tracking-[1.28px]"> Kate
                                 Laswell </p>
                             <p className="popins-extraLight mt-2">Managing Director</p>
+                            <ul className="flex gap-6 mt-2">
+                                <li><CiTwitter className=" w-6 h-6"/></li>
+                                <li><FaInstagram className=" w-6 h-6"/></li>
+                                <li><PiLinkedinLogoLight className=" w-6 h-6"/></li>
+                            </ul>
 
                         </div>
                     </div>
                     <div>
 
-                    <div
+                        <div
                             className="w-[370px] h-[430px] bg-[#F5F5F5] flex justify-center items-end pt-[38px] pb-0 px-[22px] ">
                             <img
                                 src={will}/></div>
@@ -87,12 +100,18 @@ const About = () => {
                             <p className="inter-medium text-black text-[32px] font-medium leading-[30px] tracking-[1.28px]">Jonathan
                                 Price </p>
                             <p className="popins-extraLight mt-2">Product Designer</p>
+                            <ul className="flex gap-6 mt-2">
+                                <li><CiTwitter className=" w-6 h-6"/></li>
+                                <li><FaInstagram className=" w-6 h-6"/></li>
+                                <li><PiLinkedinLogoLight className=" w-6 h-6"/></li>
+                            </ul>
+
                         </div>
                     </div>
 
                 </div>
 
-
+<ThreeBilboards/>
             </div>
         </div>
     );
