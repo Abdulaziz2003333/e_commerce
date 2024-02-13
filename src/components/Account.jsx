@@ -3,7 +3,7 @@ import React from 'react';
 const Account = () => {
     return (
         <div className="container">
-            {/*<h1 className="text-right">Jonim Username bu </h1>*/}
+
             <div className="pt-60">
 
                 <div className="flex justify-between items-center">
@@ -42,21 +42,45 @@ const Account = () => {
                         <div className="flex justify-between items-center">
                             <ul>
                                 <li className="mb-3">Firs Name</li>
-                                <li ><input className=" w-[300px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)]"/></li>
+                                <li ><input className=" w-[330px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)] pl-3"
+                                placeholder="Md"/></li>
                             </ul>
                             <ul>
                                 <li className="mb-3">Last Name</li>
-                                <li><input className=" w-[300px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)]"/></li>
+                                <li><input className=" w-[330px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)] pl-3"
+                                placeholder="Rimel"/></li>
                             </ul>
                         </div>
                         <div className="flex justify-between">
                             <ul>
-                                <li>Email</li>
-                                <li><input/></li>
+                                <li className="mb-3 mt-2" >Email</li>
+                                <li ><input className=" w-[330px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)] pl-3"
+                                            placeholder="rimel1111@gmail.com"/></li>
                             </ul>
                             <ul>
-                                <li>Address</li>
-                                <li><input/></li>
+                                <li className="mb-3 mt-2">Address</li>
+                                <li><input className=" w-[330px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)] pl-3"
+                                placeholder="Kingston, 5236, United State"/></li>
+                            </ul>
+                        </div>
+                        <div className="mt-6">
+                            <h1 className="mb-5">Password Changes</h1>
+                            <input
+                                className="w-[870px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)] pl-3"
+                            placeholder="Current Passwod"/>
+                            <input
+                                className="w-[870px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)] mt-5 pl-3"
+                                placeholder=" New Passwod"/>
+                            <input
+                                className="w-[870px] h-[50px] shrink-0 rounded [background:var(--Secondary,#F5F5F5)] mt-5 pl-3"
+                            placeholder="Confirm New Passwod"/>
+                        </div>
+                        <div>
+                            <ul className=" flex justify-end items-center mt-6">
+                                <li className="mr-6"> Cancel</li>
+                                <li>
+                                    <button className=" text-white rounded [background:var(--Button2,#DB4444)] px-12 py-4">Save Changes</button>
+                                </li>
                             </ul>
                         </div>
                     </div>
