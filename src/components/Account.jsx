@@ -4,7 +4,7 @@ const Account = () => {
     return (
         <div className="container">
 
-            <div className="pt-60">
+            <div className="pt-60 pb-52">
 
                 <div className="flex justify-between items-center">
                     <div>
