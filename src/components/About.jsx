@@ -19,8 +19,8 @@ const About = () => {
 
             <div className="pt-60 ">
 
-                <div className="container flex justify-center items-center gap-14">
-                    <div className="inline-flex flex-col items-start gap-10 w-[505px]">
+                <div className=" flex  items-center justify-between">
+                    <div className="inline-flex flex-col items-start justify-between w-[505px]">
                         <h1 className="text-black text-justify inter-medium text-[54px] font-semibold leading-[64px] tracking-[3.24px]"> Our
                             Story</h1>
                         <p>Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active
@@ -33,7 +33,7 @@ const About = () => {
                             diverse assotment in categories ranging from consumer.</p>
                     </div>
                     <div>
-                        <img src={girls}/>
+                        <img src={girls} className="w-[550px]"/>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-center pt-10 gap-14">
+                <div className="flex justify-between pt-10 ">
                     <div>
                         <div
                             className="w-[370px] h-[430px] bg-[#F5F5F5] flex justify-center items-end pt-[39px] pb-0 px-[67px]  ">

@@ -51,6 +51,10 @@ html{
     font-family: 'semi-bold';
     src: url('fonts/Poppins-ExtraLightItalic.ttf')
 }
+@font-face {
+    font-family: 'semi-medium';
+    src: url('fonts/Poppins-Medium.ttf')
+}
 .inter-black{
     font-family: 'inter-black', sans-serif;
 }
@@ -75,6 +79,9 @@ html{
 }
 .poppins-semibold{
     font-family:'extra-light', sans-serif ;
+}
+.poppins-semimedium{
+    font-family:'semi-medium', sans-serif ;
 }
 .nav-item{
     position: relative;
