@@ -35,7 +35,7 @@ const Product = () => {
                 duration: 2,
                 scrollTrigger:{
                     trigger:animationRef.current,
-                    start:'bottom',
+                    start:'1300',
                     end:'center center',
                     scrub:2
                 }

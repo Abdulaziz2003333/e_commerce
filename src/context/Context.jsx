@@ -56,7 +56,7 @@ const HandleSubmit=(e)=>{
         try {
             const response = await axios.get(`${baseUrl}product`, {
                 headers: {
-                    'Authorization': `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNzZGFzZHNhZGhlcnpvZEBnbWFpbC5jb20iLCJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImFzZHNhZCIsImlhdCI6MTcwNjk5MTMyMn0.WxJAiaCB9OE2J7ufY_An7rZpAsQ1EK95_yOzD6UQGuU`,
+                    'Authorization': `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNoZXJHTWRmZGZBSUxAZ21haWwuY29tIiwidXNlcl9pZCI6NSwidXNlcm5hbWUiOiJzamVyMzN6b3NkIiwiaWF0IjoxNzA3OTc0NDk0fQ.qexE9H34h7EMC-Zj-VtJyPX0EbbGoAdMqyqGDIyTdOQ`,
                     'Content-Type': 'application/json'
                 }
             });
