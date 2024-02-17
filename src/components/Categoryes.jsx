@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {IoArrowForwardSharp} from "react-icons/io5";
 import {Swiper, SwiperSlide} from "swiper/react";
 import 'swiper/css';
@@ -15,6 +15,7 @@ const Categories = () => {
     const triggerRef = useRef(null);
     const animationRef = useRef(null);
     const cardref= useRef(null)
+
     useEffect(() => {
 
         gsap.registerPlugin(ScrollTrigger);
