@@ -81,8 +81,8 @@ const Product = () => {
                     >
                         {
                             data?.product?.map((item) => (
-                                <SwiperSlide ref = {animationRef}>
-                                    <div key={item.product_id} onMouseEnter={() => setHidden(item.product_id)}
+                                <SwiperSlide  key={item.product_id} ref = {animationRef}>
+                                    <div  onMouseEnter={() => setHidden(item.product_id)}
                                          onMouseLeave={() => setHidden(null)}
                                          className={`h-[250px] relative rounded-md flex items-center ${isLoading ? "animate-pulse" : "animate-none"} duration-75 flex-col w-[270px] bg-[#e9eef1]`}>
                                 <span
