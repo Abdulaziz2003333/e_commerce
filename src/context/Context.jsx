@@ -30,19 +30,26 @@ const ContextProvider = ({children}) => {
 
     const SignUp= async ()=>{
         try {
-            axios.post(`${baseUrl}/register`,
-                {
-                    name,
-                    email,
-                    password
-                })
-        }
-        catch (e) {
-            console.log(e)
+            const response = await axios.post(`${baseUrl}/register`, {
+                username:name,
+                email,
+                password
+            });
+
+            // Проверка статуса ответа
+            console.log(response.data)
+            if (response.status === 201) {
+                console.log('Данные успешно отправлены на сервер');
+            } else {
+                console.log('Произошла ошибка при отправке данных');
+            }
+        } catch (error) {
+            console.error('Произошла ошибка при отправке данных', error);
         }
     }
 const HandleSubmit=(e)=>{
-        e.preventDefault
+        e.preventDefault()
+    SignUp()
 }
 
     console.log(password)
@@ -56,7 +63,7 @@ const HandleSubmit=(e)=>{
         try {
             const response = await axios.get(`${baseUrl}product`, {
                 headers: {
-                    'Authorization': `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNoZXJHTWRmZGZBSUxAZ21haWwuY29tIiwidXNlcl9pZCI6NSwidXNlcm5hbWUiOiJzamVyMzN6b3NkIiwiaWF0IjoxNzA3OTc0NDk0fQ.qexE9H34h7EMC-Zj-VtJyPX0EbbGoAdMqyqGDIyTdOQ`,
+                    'Authorization': `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvbmltQGdtYWlsLmNvbSIsInVzZXJfaWQiOjEsInVzZXJuYW1lIjoiSm9uaW0iLCJpYXQiOjE3MDc4NDIzNTd9.lPZ0KrZ4zHMblFG6Jywoy00jzMAr4k2wIoaxBswtwyI`,
                     'Content-Type': 'application/json'
                 }
             });
